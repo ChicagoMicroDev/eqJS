@@ -1,6 +1,7 @@
-let triangle = "#";
+let emptyString = " ";
 
-for(let number = 0; number <= 8; number++ ){
-console.log(number);
-break;
+for(i = "#"; i.length < 8 ; i+="#")
+{
+   console.log(i)
 }
+// let placeHolder =
